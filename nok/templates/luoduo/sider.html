@@ -1,0 +1,21 @@
+<div class="aside-abs-bg"></div>
+<aside class="product-aside fl">
+    <hggroup class="columns-title">
+        NOK <i> ®️</i>  密封件 
+        <span class="bot"></span>
+    </hggroup>
+    <div class="aside-bar-wrap">
+        <ul>
+            {list action=category module=nok pid=0 return=t}
+            <li ${if  $t.id==$ci->get_cache('module-1-nok', 'category', $catid, 'pid')} class="on" {/if}>
+                <h6 class="aside-top">{$t.name}  <i></i></h6>
+                <div class="aside-childen">
+                    {list action=category module=nok pid=$t.id return=t2}
+                    <a href="{$t2.url}"  ${if  $t2.id==$catid} class="action" {/if} >{$t2.name}</a>
+                    {/list}
+                </div>
+            </li>
+            {/list}
+        </ul>
+    </div>
+</aside>

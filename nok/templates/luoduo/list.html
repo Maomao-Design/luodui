@@ -1,0 +1,57 @@
+{template "header.html"}
+
+<!--product dingzhi-->
+<section class="product-wrap">
+  <div class="product-box w m-auto">
+        <!--aside-->
+        {template "sider.html"}
+        <!--aside end-->
+        <section class="product-content fr">
+            {template "name.html"}
+            <div class="nok-list-wrap">
+                <!--paging-->
+                <div class="paging-wrap">
+                    <a href="" class="next-btn" ></a>
+                    <span class="paging-num">
+                        1/9
+                    </span>
+                </div>
+                <!--paging end-->
+                <!--list box-->
+                <div class="nok-list-main">
+                    <table class="tb">
+                        <tr class="tr0">
+                            <th class="th1">NOK零件号</th>
+                            <th class="th2">型号</th>
+                            <th class="th2">轴径（d）</th>
+                            <th class="th2">外径（D）</th>
+                            <th class="th2">宽（b）（h）</th>
+                        </tr>
+                        {list action=module catid=$catid order=displayorder,updatetime return=t}
+                        <tr>
+                            <td class="td1"><a href="{$t.url}">{$t.title}</a></td>
+                            <td class="td2">
+                                {$t.xinghao}
+                            </td>
+                            <td class="td2">
+                               {$t.zhoujing}
+                            </td>
+                            <td class="td2">
+                               {$t.waijing}
+                            </td>
+                            <td class="td2">
+                                {$t.kuan}
+                            </td>
+                        </tr>
+                        {/list}
+                    </table>
+                </div>
+                <!--list box end-->
+            </div>
+        </section>
+        <div class="clear"></div>
+  </div>  
+</section>
+<!--product dingzhi end -->
+
+{template "footer.html"}

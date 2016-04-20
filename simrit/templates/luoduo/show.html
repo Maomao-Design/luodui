@@ -1,0 +1,48 @@
+{template "header.html"}
+
+<!--product dingzhi-->
+<section class="product-wrap">
+  <div class="product-box w m-auto">
+        <!--aside-->
+        <div class="aside-abs-bg"></div>
+        <aside class="product-aside fl">
+            <hggroup class="columns-title">
+                SIMRIT <i> ®️</i>  密封件
+                <span class="bot"></span>
+            </hggroup>
+            <div class="aside-bar-wrap">
+                <ul>
+                   {list action=category pid=$cat.pid }
+                    <li ${if  $t.id==$catid} class="on" {/if}>
+                        <h6 class="aside-top">{$t.name}<i></i></h6>
+                        <div class="aside-childen">
+                          {list action=module catid=$t.id order=displayorder,updatetime return=t2}
+                            <a href="{$t2.url}"  ${if  $t2.id==$id} class="action" {/if} >{$t2.title}</a>
+                           {/list}
+                        </div>
+                    </li>
+                    {/list}
+                </ul>
+            </div>
+        </aside>
+        <!--aside end-->
+        <section class="product-content fr"> 
+            <div class="simrit-top">
+                 <div class="title">{$title}</div>
+            </div>
+           
+            <!--simrit show box-->
+            <div class="simrit-show-wrap">
+                <div class="simrit-show-box">
+                        {$content}
+                </div>
+                
+            </div>
+            <!--simrit show box end-->
+        </section>
+        <div class="clear"></div>
+  </div>  
+</section>
+<!--product dingzhi end -->
+
+{template "footer.html"}
