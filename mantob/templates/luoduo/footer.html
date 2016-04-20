@@ -38,11 +38,7 @@
         版权所有©盛航密封技术有限公司    粤ICP备09018673号
     </div>
 </footer>
-<div id="preloader">
-    <div class="inner">
-        <span class="loader"></span>
-    </div>
-</div>
+
 <!--[if lt IE 8]>
 <style>html,body{overflow:hidden;height:100%}</style>
 <div class="tb-ie-updater-layer"></div>
