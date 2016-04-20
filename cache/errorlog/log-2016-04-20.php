@@ -18,3 +18,6 @@ ERROR - 2016-04-20 16:24:08 --> 钩子调用文件（/Users/julaud/www/php/manto
 ERROR - 2016-04-20 16:24:26 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
 ERROR - 2016-04-20 16:24:38 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
 ERROR - 2016-04-20 16:24:47 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
+ERROR - 2016-04-20 17:46:59 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
+ERROR - 2016-04-20 17:47:19 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
+ERROR - 2016-04-20 17:47:31 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
