@@ -13,6 +13,14 @@ $(function() {
     $(".nav_c").show();
     {/if}
     {/if}
+    
+    
+    
+    man_type_hide();
+    
+    
+    
+    
 });
 function dr_nav(id) {
     $(".nav_0").hide();
@@ -43,7 +51,6 @@ function dr_select_category(id) {
         $(".nav_c").hide();
     }
 }
-
 
 function man_type_hide(){
     $(".mantype_box").hide();
@@ -123,16 +130,16 @@ function man_type_show(id){
                 <div class="onShow">{lang('html-738')}</div>
             </td>
         </tr>
-        <tr>
+       <tr>
 			<th><font color="red">*</font>动画类型： </th>
 			<td>
-            <label><input  type="radio" name="data[mantype]" {if $data.mantype == 0} checked{/if} value="0" class="nomantype" onclick="man_type_hide()" />导航</label>
+            <label><input  type="radio" name="mantype" {if $mantype == 0} checked{/if} value="0" class="nomantype" onclick="man_type_hide()" />导航</label>
             <br/>
-            <label><input  type="radio" name="data[mantype]" {if $data.mantype == 1} checked{/if} value="1" class="yesmantype" onclick="man_type_show(1)" />&nbsp;1 （背景图片 + 内容图片 + 按钮链接）</label>
+            <label><input  type="radio" name="mantype" {if $mantype == 1} checked{/if} value="1" class="yesmantype" onclick="man_type_show(1)" />&nbsp;1 （背景图片 + 内容图片 + 按钮链接）</label>
             <br/>
-            <label><input  type="radio" name="data[mantype]" {if $data.mantype == 2} checked{/if} value="2" class="yesmantype" onclick="man_type_show(2)"  />&nbsp;2 （背景图片 + 大标题文本 + 描述文本 + 按钮链接）</label>
+            <label><input  type="radio" name="mantype" {if $mantype == 2} checked{/if} value="2" class="yesmantype" onclick="man_type_show(2)"  />&nbsp;2 （背景图片 + 大标题文本 + 描述文本 + 按钮链接）</label>
              <br/>
-            <label><input  type="radio" name="data[mantype]" {if $data.mantype == 3} checked{/if} value="3" class="yesmantype" onclick="man_type_show(3)"  />&nbsp;3 （背景视频 + 大标题文本 + 描述文本 + 按钮链接）</label>
+            <label><input  type="radio" name="mantype" {if $mantype == 3} checked{/if} value="3" class="yesmantype" onclick="man_type_show(3)"  />&nbsp;3 （背景视频 + 大标题文本 + 描述文本 + 按钮链接）</label>
             
             </td>
 		</tr>
@@ -143,11 +150,25 @@ function man_type_show(id){
                 <div class="onShow">{lang('html-027')}</div>
             </td>
         </tr>
-        <tr class="nav_0 nav_c">
+        <!--<tr class="nav_0 nav_c">
             <th>{lang('html-376')}： </th>
             <td>
                 {dr_field_input('thumb', 'File', $field['thumb']['setting'], $data['thumb'])}
                 <div class="onShow">{lang('html-381')}</div>
+            </td>
+        </tr>-->
+        <tr class="nav_0 nav_c mantype_box mantype_1 mantype_2">
+            <th><font color="red">*</font>背景图片： </th>
+            <td>
+                {dr_field_input('bgthumb', 'File', $field['thumb']['setting'], $data['bgthumb'])}
+                <div class="onShow">banner 大背景图片</div>
+            </td>
+        </tr>
+        <tr class="nav_0 nav_c mantype_box mantype_1 mantype_2">
+            <th><font color="red">*</font>banner主体图片： </th>
+            <td>
+                {dr_field_input('mainthumb', 'File', $field['thumb']['setting'], $data['mainthumb'])}
+                <div class="onShow">banner 中间显示的动画图片</div>
             </td>
         </tr>
         <tr class="nav_0 nav_c">
@@ -160,23 +181,33 @@ function man_type_show(id){
          <tr class="nav_0 nav_c mantype_box mantype_2 mantype_3">
             <th>大标题文本： </th>
             <td>
-                {dr_field_input('bigtitle', 'Text', $field['bigtitle']['setting'], $data['bigtitle'])}
+                {dr_field_input('bigtitle', 'Text', $field['title']['setting'], $data['bigtitle'])}
                 <div class="onShow">banner 大标题文字</div>
             </td>
         </tr>
-        <tr class="nav_0 nav_c">
+        
+        <tr class="nav_0 nav_c mantype_box mantype_2 mantype_3">
             <th>{lang('html-1005')}： </th>
             <td>
                 {dr_field_input('description', 'Textarea', $field['description']['setting'], $data['description'])}
-                <div class="onShow">{lang('html-1006')}</div>
+                <div class="onShow">banner 大标题下的 描述文本</div>
             </td>
         </tr>
+        
+        <tr class="mantype_box mantype_3">
+             <th><font color="red">*</font>背景视频： </th>
+            <td>
+                {dr_field_input('bgmpsi', 'File', $field['bgmpsi']['setting'], $data['bgmpsi'])}
+                <div class="onShow">banner 大背景视频</div>
+            </td>
+        </tr>
+        
+        
         <tr class="nav_0">
             <th><font color="red">*</font>&nbsp;{lang('html-377')}： </th>
             <td>
                 {dr_field_input('url', 'Text', $field['url']['setting'], $data['url'])}
                 <div class="onShow">{lang('html-382')}</div>
-
             </td>
         </tr>
 		<tr>
