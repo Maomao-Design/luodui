@@ -1,0 +1,19 @@
+<!--aside-->
+        <div class="aside-abs-bg"></div>
+        <aside class="product-aside fl">
+            <hggroup class="columns-title">
+                最新资讯
+                <span class="bot"></span>
+            </hggroup>
+            <div class="aside-bar-wrap">
+                <ul>
+                    {list action=category pid=$cat.pid }
+                    <li {if  $t.id==$catid} class="on" {/if}>
+                        <a href="{$t.url}"><h6 class="aside-top">{$t.name}<i></i></h6> </a>
+                        
+                    </li>
+                   
+                   {/list}
+                </ul>
+            </div>
+</aside>

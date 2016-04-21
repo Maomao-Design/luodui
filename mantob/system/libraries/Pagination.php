@@ -622,7 +622,7 @@ class CI_Pagination {
 		// Kill double slashes. Note: Sometimes we can end up with a double slash
 		// in the penultimate link so we'll kill all double slashes.
 		$output = preg_replace('#([^:])//+#', '\\1/', $output);
-
+		$zznum = '<span class="tolnum">'.$num_pages.'</span>';
 		// Add the wrapper HTML if exists
 		return $this->full_tag_open.$output.$this->full_tag_close;
 	}
@@ -677,7 +677,7 @@ class CI_Pagination {
 	 *
 	 * @return	string
 	 */
-	public function dr_links()
+	public function mantou_links()
 	{
 		// If our item count or per-page total is zero there is no need to continue.
 		if ($this->total_rows === 0 OR $this->per_page === 0)
@@ -858,10 +858,138 @@ class CI_Pagination {
 		// Kill double slashes. Note: Sometimes we can end up with a double slash
 		// in the penultimate link so we'll kill all double slashes.
 		$output = preg_replace('#([^:])//+#', '\\1/', $output);
+		$tolnum = '<span data-tolnum="'.$num_pages.'"></span>';
+		// Add the wrapper HTML if exists
+		return $this->full_tag_open.$output.$tolnum.$this->full_tag_close;
+	}
+	
+	/**
+	 * Generate the pagination links (v2)
+	 *
+	 * @return	string
+	 */
+	public function mantou_mao_links()
+	{
+		// If our item count or per-page total is zero there is no need to continue.
+		if ($this->total_rows === 0 OR $this->per_page === 0)
+		{
+			return '';
+		}
 
+		// Calculate the total number of pages
+		$num_pages = (int) ceil($this->total_rows / $this->per_page);
+
+		// Is there only one page? Hm... nothing more to do here then.
+		if ($num_pages === 1)
+		{
+			return '';
+		}
+
+		// Check the user defined number of links.
+		$this->num_links = (int) $this->num_links;
+
+		if ($this->num_links < 1)
+		{
+			show_error('Your number of links must be a positive number.');
+		}
+
+		$CI =& get_instance();
+
+		// Keep any existing query string items.
+		// Note: Has nothing to do with any other query string option.
+		if ($this->reuse_query_string === TRUE)
+		{
+			$get = $CI->input->get();
+
+			// Unset the controll, method, old-school routing options
+			unset($get['c'], $get['m'], $get[$this->query_string_segment]);
+		}
+		else
+		{
+			$get = array();
+		}
+
+		// Put together our base and first URLs.
+		$this->base_url = trim($this->base_url);
+		$this->first_url = $this->base_url;
+		
+
+		// Determine the current page number.
+		$base_page = ($this->use_page_numbers) ? 1 : 0;
+
+		$this->cur_page = max(1, (int)$CI->input->get($this->query_string_segment));
+
+		// If something isn't quite right, back to the default base page.
+		if ( $this->use_page_numbers && (int) $this->cur_page === 0)
+		{
+			$this->cur_page = $base_page;
+		}
+		else
+		{
+			// Make sure we're using integers for comparisons later.
+			$this->cur_page = (int) $this->cur_page;
+		}
+
+		// Is the page number beyond the result range?
+		// If so, we show the last page.
+		if ($this->use_page_numbers)
+		{
+			if ($this->cur_page > $num_pages)
+			{
+				$this->cur_page = $num_pages;
+			}
+		}
+		elseif ($this->cur_page > $this->total_rows)
+		{
+			$this->cur_page = ($num_pages - 1) * $this->per_page;
+		}
+
+		$uri_page_number = $this->cur_page;
+
+		// If we're using offset instead of page numbers, convert it
+		// to a page number, so we can generate the surrounding number links.
+		if ( ! $this->use_page_numbers)
+		{
+			$this->cur_page = (int) floor(($this->cur_page/$this->per_page) + 1);
+		}
+
+		// Calculate the start and end numbers. These determine
+		// which number to start and end the digit links with.
+		$start	= (($this->cur_page - $this->num_links) > 0) ? $this->cur_page - ($this->num_links - 1) : 1;
+		$end	= (($this->cur_page + $this->num_links) < $num_pages) ? $this->cur_page + $this->num_links : $num_pages;
+
+		// And here we go...
+		$output = '';
+
+		
+		
+
+		
+		// Render the "next" link
+		if ($this->next_link !== FALSE)
+		{	
+			$i = ($this->use_page_numbers) ? $this->cur_page + 1 : $this->cur_page * $this->per_page;
+			
+			if($this->cur_page == $num_pages){
+				$i = 1;
+			}
+
+			$attributes = sprintf('%s %s="%d"', $this->_attributes, $this->data_page_attr, (int) $i);
+
+			$output .= $this->next_tag_open.'<a class="next-btn" href="'.str_replace('{page}', $i, $this->base_url).'"'.$attributes
+				.$this->_attr_rel('next').'>'.$this->next_link.'</a>'.$this->next_tag_close;
+		}
+		
+		$output .= '<span class="paging-num">'.$this->cur_page.'/'.$num_pages.'</span>';
+
+		// Kill double slashes. Note: Sometimes we can end up with a double slash
+		// in the penultimate link so we'll kill all double slashes.
+		$output = preg_replace('#([^:])//+#', '\\1/', $output);
+		
 		// Add the wrapper HTML if exists
 		return $this->full_tag_open.$output.$this->full_tag_close;
 	}
+	
 }
 
 /* End of file Pagination.php */

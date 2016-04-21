@@ -1,1 +1,0 @@
-a:3:{s:4:"time";i:1461145588;s:3:"ttl";i:7200;s:4:"data";s:192:"<select id='dr_catid' name='catid' onChange="show_category_field(this.value)"><option value='1' > JIS 标准缸（JIS B 8354）</option><option value='2' > 密封应用范围</option></select>";}

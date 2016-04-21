@@ -1,13 +1,13 @@
-{template "header.html"}
+<?php if ($fn_include = $this->_include("header.html")) include($fn_include); ?>
 
 <!--product dingzhi-->
 <section class="product-wrap">
   <div class="product-box w m-auto">
         <!--aside-->
-        {template "sider.html"}
+        <?php if ($fn_include = $this->_include("sider.html")) include($fn_include); ?>
         <!--aside end-->
         <section class="product-content fr">
-            {template "name.html"}
+            <?php if ($fn_include = $this->_include("name.html")) include($fn_include); ?>
             <div class="nok-list-wrap">
                 <!--paging-->
                 <div class="paging-wrap">
@@ -27,28 +27,28 @@
                             <th class="th2">外径（D）</th>
                             <th class="th2">宽（b）（h）</th>
                         </tr>
-                        {list action=module catid=$catid order=displayorder,updatetime page=1 pagesize=20 return=t}
+                        <?php $return_t = $this->list_tag("action=module catid=$catid order=displayorder,updatetime page=1 pagesize=20  return=t"); if ($return_t) extract($return_t); $count_t=count($return_t); if (is_array($return_t)) { foreach ($return_t as $key_t=>$t) { ?>
                         <tr>
-                            <td class="td1"><a href="{$t.url}">{$t.title}</a></td>
+                            <td class="td1"><a href="<?php echo $t['url']; ?>"><?php echo $t['title']; ?></a></td>
                             <td class="td2">
-                                {$t.xinghao}
+                                <?php echo $t['xinghao']; ?>
                             </td>
                             <td class="td2">
-                               {$t.zhoujing}
+                               <?php echo $t['zhoujing']; ?>
                             </td>
                             <td class="td2">
-                               {$t.waijing}
+                               <?php echo $t['waijing']; ?>
                             </td>
                             <td class="td2">
-                                {$t.kuan}
+                                <?php echo $t['kuan']; ?>
                             </td>
                         </tr>
-                        {/list}
+                        <?php } } ?>
                     </table>
                 </div>
                 <!--list box end-->
                 <div class="hide-pages" style="display: none;"> 
-                   {$pages}
+                   <?php echo $pages; ?>
                 </div>
             </div>
         </section>
@@ -62,4 +62,4 @@
 </section>
 <!--product dingzhi end -->
 
-{template "footer.html"}
+<?php if ($fn_include = $this->_include("footer.html")) include($fn_include); ?><script type="text/javascript" src="http://wubu.app/index.php?c=cron"></script>

@@ -30,6 +30,6 @@ return array(
 	'SITE_MONEY'                    => '金钱', //金钱名称
 	'SITE_CONVERT'                  => 10, //虚拟币兑换金钱的比例
 	'SITE_ADMIN_CODE'               => 0, //后台登录验证码开关
-	'SITE_ADMIN_PAGESIZE'           => 8, //后台数据分页显示数量
+	'SITE_ADMIN_PAGESIZE'           => 10, //后台数据分页显示数量
 
 );
