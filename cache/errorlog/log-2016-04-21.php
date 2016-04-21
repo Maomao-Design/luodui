@@ -1,8 +1,8 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-
-ERROR - 2016-04-21 09:19:50 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
-ERROR - 2016-04-21 09:19:59 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
-ERROR - 2016-04-21 09:20:11 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
-ERROR - 2016-04-21 09:20:21 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
-ERROR - 2016-04-21 09:20:31 --> 钩子调用文件（/Users/julaud/www/php/mantou/mantob/mantob/hooks/module_hooks.php）的不存在
-ERROR - 2016-04-21 11:33:29 --> Severity: Error --> Call to undefined method CI_Pagination::mantou_mao_links() /Users/julaud/www/php/mantou/mantob/mantob/libraries/Template.php 1576
+ERROR - 2016-04-21 15:35:49 --> Severity: Error --> Call to undefined function man_so_url() /Users/julaud/www/php/mantou/mantob/cache/templates/b2ecaeb22a542cd80604a637950cd4fb.cache.php 21
+ERROR - 2016-04-21 15:36:26 --> Severity: Error --> Call to undefined function man_so_url() /Users/julaud/www/php/mantou/mantob/cache/templates/b2ecaeb22a542cd80604a637950cd4fb.cache.php 21
+ERROR - 2016-04-21 15:36:28 --> Severity: Error --> Call to undefined function man_so_url() /Users/julaud/www/php/mantou/mantob/cache/templates/b2ecaeb22a542cd80604a637950cd4fb.cache.php 21
+ERROR - 2016-04-21 15:36:29 --> Severity: Error --> Call to undefined function man_so_url() /Users/julaud/www/php/mantou/mantob/cache/templates/b2ecaeb22a542cd80604a637950cd4fb.cache.php 21
+ERROR - 2016-04-21 18:26:06 --> Query error: Column 'thumb' cannot be null - Invalid query: INSERT INTO `man_1_navigator` (`url`, `pid`, `pids`, `type`, `mark`, `name`, `show`, `title`, `description`, `thumb`, `child`, `target`, `extend`, `childids`, `displayorder`) VALUES ('http://', 0, '', 0, '', '11', 1, '', '', NULL, 0, 0, 0, '', 0)
+ERROR - 2016-04-21 18:26:37 --> Query error: Column 'thumb' cannot be null - Invalid query: INSERT INTO `man_1_navigator` (`url`, `pid`, `pids`, `type`, `mark`, `name`, `show`, `title`, `description`, `thumb`, `child`, `target`, `extend`, `childids`, `displayorder`) VALUES ('http://', 0, '', 0, '', '11', 1, '', '', NULL, 0, 0, 0, '', 0)
+ERROR - 2016-04-21 18:26:48 --> Query error: Column 'thumb' cannot be null - Invalid query: INSERT INTO `man_1_navigator` (`url`, `pid`, `pids`, `type`, `mark`, `name`, `show`, `title`, `description`, `thumb`, `child`, `target`, `extend`, `childids`, `displayorder`) VALUES ('http://', 0, '', 0, '', '', 1, '', '', NULL, 0, 0, 0, '', 0)
+ERROR - 2016-04-21 18:26:52 --> Query error: Column 'thumb' cannot be null - Invalid query: INSERT INTO `man_1_navigator` (`url`, `pid`, `pids`, `type`, `mark`, `name`, `show`, `title`, `description`, `thumb`, `child`, `target`, `extend`, `childids`, `displayorder`) VALUES ('http://', 0, '', 0, '', '1', 1, '', '', NULL, 0, 0, 0, '', 0)

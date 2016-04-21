@@ -38,7 +38,7 @@
                         <div id="nav2">
                             <ul>
                                 {loop $module $dir $t}
-                                <li {if $dir==$dirname}class="ui-state-active"{/if}><a href="{dr_so_url($params, 'module', $dir, $urlrule)}" >{$t.name}（{intval($t.search.sototal)}）</a></li>
+                                <li {if $dir==$dirname}class="ui-state-active"{/if}><a href="{man_so_url($params, 'module', $dir, $urlrule)}" >{$t.name}（{intval($t.search.sototal)}）</a></li>
                                 {/loop}
                             </ul>
                             <span class="bar"></span>

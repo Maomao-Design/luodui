@@ -10,18 +10,13 @@
             </div>
             <div class="news-lsit-wrap">
                 <div class="paging-wrap">
-                    <!--<a href="" class="next-btn" ></a>
-                    <span class="paging-num">
-                      
-                    </span>-->
                 </div>
                 <div class="news-list-main">
                     <ul>
-                        <?php $return = $this->list_tag("action=module catid=$catid order=displayorder,updatetime page=1 pagesize=1"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
+                        <?php $return = $this->list_tag("action=module catid=$catid order=displayorder,updatetime page=1"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
                         <li>
                             <a href="<?php echo $t['url']; ?>"><?php echo $t['title']; ?> <span class="fr">更多</span></a>
-                        </li>
-                        
+                        </li>                        
                         <?php } } ?>
                     </ul>
                    

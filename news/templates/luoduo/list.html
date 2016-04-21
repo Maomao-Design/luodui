@@ -10,18 +10,13 @@
             </div>
             <div class="news-lsit-wrap">
                 <div class="paging-wrap">
-                    <!--<a href="" class="next-btn" ></a>
-                    <span class="paging-num">
-                      
-                    </span>-->
                 </div>
                 <div class="news-list-main">
                     <ul>
-                        {list action=module catid=$catid order=displayorder,updatetime page=1 pagesize=1}
+                        {list action=module catid=$catid order=displayorder,updatetime page=1}
                         <li>
                             <a href="{$t.url}">{$t.title} <span class="fr">更多</span></a>
-                        </li>
-                        
+                        </li>                        
                         {/list}
                     </ul>
                    

@@ -164,7 +164,7 @@ function dr_space_search_url($params = NULL, $name = NULL, $value = NULL, $urlru
  * @param	string	$moddir		强制定位到模块
  * @return	string
  */
-function dr_so_url($params = NULL, $name = NULL, $value = NULL, $urlrule = NULL) {
+function dir_so_url($params = NULL, $name = NULL, $value = NULL, $urlrule = NULL) {
 
     if ($name) {
         if ($value) {
