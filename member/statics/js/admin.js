@@ -1,10 +1,10 @@
  /**
- * montob Website Management System
+ * mantob Website Management System
  *
  * @since		version 2.0.1
- * @author		montob <montob@gmail.com>
- * @license     http://www.montob.com/license
- * @copyright   Copyright (c) 2011 - 9999, montob.Com, Inc.
+ * @author		mantob <mantob@gmail.com>
+ * @license     http://www.mantob.com/license
+ * @copyright   Copyright (c) 2011 - 9999, mantob.Com, Inc.
  */
 
 function dr_alert(msg) {

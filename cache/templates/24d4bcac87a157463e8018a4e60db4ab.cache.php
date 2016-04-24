@@ -4,7 +4,7 @@
   <div class="product-box w m-auto">
         <?php if ($fn_include = $this->_include("side.html")) include($fn_include); ?>
         <!--aside end-->
-        <section class="product-content fr">
+        <section class="product-content fr" style="width:890px;" >
            <div class="news-lsit-top">
                <div class="title"><?php echo $ci->get_cache('module-1-news', 'category', $catid, 'name'); ?></div>
             </div>

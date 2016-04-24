@@ -1,0 +1,26 @@
+<header class="header">
+    <div class="w m-auto pstRe">
+        <div class="logo">
+            <a href="/">
+                <img src="{HOME_THEME_PATH}build/images/logo.png" alt="">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="/">首页</a></li>
+                {list action=navigator type=0 pid=0}
+                <li>
+                    <a href="{$t.url}" {if $t.target}target="_blank"{/if}>{$t.name}</a>
+                    {if $t.child}
+                    <div class="nav-children">
+                        {list action=navigator type=0 pid=$t.id return=t2}
+                        <a href="{$t2.url}" {if $t2.target}target="_blank"{/if}>{$t2.name}</a>
+                        {/list}
+                    </div>
+                    {/if}
+                </li>
+                {/list}
+            </ul>
+        </nav>
+    </div>
+</header>

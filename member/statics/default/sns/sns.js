@@ -1,5 +1,5 @@
 /**
- * Created by montob on 14-8-7.
+ * Created by mantob on 14-8-7.
  */
 (function($) {
     $.fn

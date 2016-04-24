@@ -1,11 +1,11 @@
 
  /**
- * montob Website Management System
+ * mantob Website Management System
  *
  * @since		version 2.0.1
- * @author		montob <montob@gmail.com>
- * @license     http://www.montob.com/license
- * @copyright   Copyright (c) 2011 - 9999, montob.Com, Inc.
+ * @author		mantob <mantob@gmail.com>
+ * @license     http://www.mantob.com/license
+ * @copyright   Copyright (c) 2011 - 9999, mantob.Com, Inc.
  */
  
 function dr_tips(msg, time, mark) {
@@ -125,7 +125,7 @@ function dr_upload_files(name, url, pan, count) {
 						c += '<li id="files_'+name+'_'+id+'" list="'+id+'" style="cursor:move;"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr>';
 						c += '<td width="80" style="text-align:right">';
 						c += '<a href="javascript:;" onclick="dr_remove_file(\''+name+'\',\''+id+'\')">';
-						c += '<img align="absmiddle" src="'+homeurl+'montob/statics/images/b_drop.png"></a>';
+						c += '<img align="absmiddle" src="'+homeurl+'mantob/statics/images/b_drop.png"></a>';
 						c += '</td><td>';
 						c += '<input type="hidden" value="'+info[0]+'" name="data['+name+'][file][]" id="fileid_'+name+'_'+id+'" />';
 						c += '<input type="hidden" value="" id="pan_'+name+'_'+id+'" name="data['+name+'][pan][]" />';

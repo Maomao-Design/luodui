@@ -76,7 +76,7 @@ class D_Form extends M_Controller {
     }
 	
 	/**
-     * 内容维护
+     * 查看内容维护
      */
 	protected function _listc() {
 		
@@ -144,7 +144,7 @@ class D_Form extends M_Controller {
 				$this->form['name'] => $this->uriprefix.'index',
 				lang('add') => $this->uriprefix.'add',
 				lang('331') => SITE_URL.'index.php?c=form_'.SITE_ID.'_'.$this->mid.'" target="_blank',
-                '数据输出' => 'http://www.mantob.com/help/list-341.html" target="_blank',
+                
 			)),
 			'list' => $data,
 			'form' => 'form_'.SITE_ID.'_'.$this->mid,
@@ -225,7 +225,7 @@ class D_Form extends M_Controller {
                 $this->form['name'] => $this->uriprefix.'index',
                 lang('add') => $this->uriprefix.'add',
                 lang('331') => SITE_URL.'index.php?c=form_'.SITE_ID.'_'.$this->mid.'" target="_blank',
-                '数据输出' => 'http://www.mantob.com/help/list-341.html" target="_blank',
+                
             )),
             'list' => $data,
             'form' => 'form_'.SITE_ID.'_'.$this->mid,

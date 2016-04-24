@@ -12,13 +12,13 @@
             <div class="nok-show-wrap">
                 <!--thumb-->
                 <div class="img-show">
-                    <img src="{HOME_THEME_PATH}build/images/nok-show-img.png" alt="">
+                    <img src="{dr_thumb($thumb)}" alt="{$title}">
                 </div>
                 <!--thumb end -->
                 <!--parameter-->
                 <div class="nok-parameter-wrap">
                     <div class="nok-parameter">
-                        <div class="title">FU0214FO</div>
+                        <div class="title">{$title}</div>
                         <div class="content-box">
                             <table class="tb">
                                 <tr>
@@ -26,7 +26,7 @@
                                         分类
                                     </td>
                                     <td class="td2">
-                                        液压密封件／活塞杆密封专用密封件／IDI型
+                                        {dr_catpos($catid, '/',false)}               
                                     </td>
                                 </tr>
                                 <tr>
@@ -34,7 +34,7 @@
                                         型号
                                     </td>
                                     <td class="td2">
-                                        IDI型
+                                        {$xinghao}
                                     </td>
                                 </tr>
                                 <tr>
@@ -42,23 +42,16 @@
                                         封装
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$fengzhuang}
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td class="td1">
-                                        批号
-                                    </td>
-                                    <td class="td2">
-                                        
-                                    </td>
-                                </tr>
+                                
                                 <tr>
                                     <td class="td1">
                                         库存量
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$kucunliang}
                                     </td>
                                 </tr>
                                 <tr>
@@ -66,7 +59,7 @@
                                         价格
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$jiage}
                                     </td>
                                 </tr>
                                 <tr>
@@ -74,7 +67,7 @@
                                         批号
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$tpihao}
                                     </td>
                                 </tr>
                                 <tr>
@@ -82,7 +75,7 @@
                                         交货期
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$jiaohuoqi}
                                     </td>
                                 </tr>
                                 <tr>
@@ -90,7 +83,7 @@
                                         更新日期
                                     </td>
                                     <td class="td2">
-                                        2004-10-27
+                                        {$updatetime}
                                     </td>
                                 </tr>
                                 <tr>
@@ -98,7 +91,7 @@
                                         公称尺寸D
                                     </td>
                                     <td class="td2">
-                                        30
+                                        {$gongchengchicund}
                                     </td>
                                 </tr>
                                 <tr>
@@ -106,7 +99,7 @@
                                        公称尺寸d
                                     </td>
                                     <td class="td2">
-                                        
+                                       {$gongchengchicunds}
                                     </td>
                                 </tr>
                                 <tr>
@@ -114,7 +107,7 @@
                                         公称尺寸h
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$gongchengchicunh}
                                     </td>
                                 </tr>
                                 <tr>
@@ -122,7 +115,7 @@
                                         腔体尺寸D
                                     </td>
                                     <td class="td2">
-                                        20
+                                        {$qiangtichicund}
                                     </td>
                                 </tr>
                                 <tr>
@@ -130,7 +123,7 @@
                                         腔体尺寸d
                                     </td>
                                     <td class="td2">
-                                        6
+                                       {$qiangtichicunds}
                                     </td>
                                 </tr>
                                 <tr>
@@ -138,7 +131,7 @@
                                         腔体尺寸D1
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$qiangtichicund1}
                                     </td>
                                 </tr>
                                 <tr>
@@ -146,7 +139,7 @@
                                         腔体尺寸HA
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$qiangtichicunha}
                                     </td>
                                 </tr>
                                 <tr>
@@ -154,7 +147,7 @@
                                         腔体尺寸C
                                     </td>
                                     <td class="td2">
-                                        
+                                        {$qiangtichicunc}
                                     </td>
                                 </tr>
                                 <tr>
@@ -162,7 +155,7 @@
                                         NOK零件号
                                     </td>
                                     <td class="td2">
-                                        FU0214FO
+                                        {$noklingjianhao}
                                     </td>
                                 </tr>
                                 <tr>
@@ -170,7 +163,7 @@
                                         产品说明
                                     </td>
                                     <td class="td2">
-                                        产品说明
+                                        {$chanpinshuoming}
                                     </td>
                                 </tr>
                                

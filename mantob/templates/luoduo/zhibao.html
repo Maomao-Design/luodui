@@ -2,8 +2,8 @@
 <!--banner-->
 <section class="zhibao-banner-wrap">
    
-   <div class="zhibao-banner">
-       靠科技创盛航品牌，凭质量赢顾客满意
+   <div class="zhibao-banner" id="zhibao-banner">
+       靠科技创盛航品牌，凭质量赢顾客满意 <br/><br/>
    </div>
    <div class="zhibao-banner-line"></div>
    
@@ -17,7 +17,13 @@
     <div class="fuwu-readme-wrap">
         <!--left-->
         <div class="fuwu-pic-wrap">
-            <img src="{HOME_THEME_PATH}build/images/zhibao-pic-1.png" alt="">
+            <span></span>
+            {loop $attachment $i $t}
+            <div>
+                 <img src="{dr_thumb($t.file, 400,300)}" alt="">
+            </div>
+            {/loop}
+           
         </div>
         <!--left end-->
         <!--right-->
@@ -103,5 +109,13 @@
         </div>
     </div>
 </section>
+<script>
+    D(function(){
+        if(D(".fuwu-pic-wrap div").length >1){
+             imgBoxZhibao();
+        }
+       
+    })
+</script>
 <!--zhibao end -->
 {template "footer.html"}

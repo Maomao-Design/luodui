@@ -1432,7 +1432,7 @@ REPLACE INTO `{dbprefix}member_group` VALUES(4, '商业会员', 'default', 'defa
 REPLACE INTO `{dbprefix}member_setting` VALUES('ucentercfg', '');
 REPLACE INTO `{dbprefix}member_setting` VALUES('domain', '');
 REPLACE INTO `{dbprefix}member_setting` VALUES('pagesize', '10');
-REPLACE INTO `{dbprefix}member_setting` VALUES('regnotallow', 'montob,montob');
+REPLACE INTO `{dbprefix}member_setting` VALUES('regnotallow', 'mantob,mantob');
 REPLACE INTO `{dbprefix}member_setting` VALUES('ucenter', '0');
 REPLACE INTO `{dbprefix}member_setting` VALUES('regnamerule', '/^[0-9a-z]+$/i');
 REPLACE INTO `{dbprefix}member_setting` VALUES('register', '1');

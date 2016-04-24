@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ckplayer>
 	<share_html>
-	{embed src="http://www.montob.com/player/ckplayer.swf" flashvars="[$share]" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullscreen="true" type="application/x-shockwave-flash"}{/embed}
+	{embed src="http://www.mantob.com/player/ckplayer.swf" flashvars="[$share]" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" allowFullscreen="true" type="application/x-shockwave-flash"}{/embed}
 	</share_html>
 	<share_flash>
-	http://www.montob.com/player/ckplayer.swf?[$share]
+	http://www.mantob.com/player/ckplayer.swf?[$share]
 	</share_flash>
 	<share_flashvars>
 	f,my_url,my_pic,a,s,l,r,t,e,d,u
 	</share_flashvars>
 	<share_path>
-	http://www.montob.com/player/share/
+	http://www.mantob.com/player/share/
 	</share_path>
 	<share_replace>
 	</share_replace>

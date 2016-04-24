@@ -3,41 +3,22 @@
 <?php if ($fn_include = $this->_include("banner.html")) include($fn_include); ?>
 <!--banner end-->
 <!--search-->
-<section class="index-search-wrap">
+<section class="index-search-wrap wb100 wow bounceInUp bg-red animated">
     <div class="index-search m-auto">
-        <input type="text" class="search-key" placeholder="输入产品类型名称">
-        <button type="submit" class="index-btn">
-            <i class="icon icon-search"></i>
-        </button>
+        <?php if ($fn_include = $this->_include("soform.html")) include($fn_include); ?>
     </div>
 </section>
 <!--search end-->
-<section class="index-product-wrap">
-    <div class="index-product m-auto">
-        <ul class="index-product-u">
-            <li>
-                <a href="">
-                    <img src="<?php echo HOME_THEME_PATH; ?>build/images/index-pro1.png" alt="">
-                </a>
-             </li>
-             <li>
-                <a href="">
-                    <img src="<?php echo HOME_THEME_PATH; ?>build/images/index-pro2.png" alt="">
-                </a>
-             </li>
-             <li>
-                <a href="">
-                    <img src="<?php echo HOME_THEME_PATH; ?>build/images/index-pro3.png" alt="">
-                </a>
-             </li>
-        </ul>
-    </div>
+<section class="index-product-wrap wb100 wow flipInX bg-purple animated">
+    <?php if ($fn_include = $this->_include("navimg.html")) include($fn_include); ?>
 </section>
 <!--about-->
-<section class="index-about-wrap">
+<section class="index-about-wrap wb100 wow rollIn bg-red animated">
     <div class="index-about m-auto">
         <div class="index-ab-title">
-            <img src="<?php echo HOME_THEME_PATH; ?>build/images/index-about-en.png" alt="">
+            <div class="title">公司介绍</div>
+            <div class="title-en">Company Introduction</div>
+			<div class="about-up"></div>
         </div>
         <div class="index-ab-title2">
             <span class="">盛航企业</span>
@@ -50,28 +31,27 @@
             <img src="<?php echo HOME_THEME_PATH; ?>build/images/index-about-pic.png" alt="">
         </div>
         <div class="index-ab-more">
-            <a href="" class="hvr-bounce-to-right">了解更多</a>
+            <a href="<?php echo $ci->get_cache('page-1', 'data', 'index', 1, 'url'); ?>" class="hvr-bounce-to-right">了解更多</a>
         </div>
     </div>
 </section>
 <!--about end -->
 <!--contact-->
-<section class="index-contact-wrap">
+<section class="index-contact-wrap wb100 wow lightSpeedIn bg-purple animated">
     <div class="index-contact w m-auto">
         <div class="index-ct-box-1">
             <span class="icon-map icon-com"></span>
             <p>
-                广州市花都区花东镇花北路9号花都 （国际） 
-                工程机械配件交易基地A2栋23-26号 
+                <?php echo om_block(1); ?>
             </p>
             <p class="p2">
-                上海市江桥镇金园三路218号一号楼
+                <?php echo om_block(2); ?>
             </p>
         </div>
         <div class="index-ct-box-2">
             <span class="icon-mail icon-com icon"></span>
             <span>
-                <a href="mailto:shenghangseal@126.com">shenghangseal@126.com</a>
+                <a href="mailto:<?php echo om_block(3); ?>"><?php echo om_block(3); ?></a>
             </span>
            
         </div>

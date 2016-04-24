@@ -121,7 +121,7 @@
 				//ajax获取数据成功后的回调函数
 				_ajaxOptions.success = function(data){
 						//遍历数据，获取html字符串
-						if (data.length > 0) { //本菜单有内容才显示，否者隐藏(montob添加)
+						if (data.length > 0) { //本菜单有内容才显示，否者隐藏(mantob添加)
 							_that.$applyTo.eq(selectIndex).show(); 
 						} else {
 							_that.$applyTo.eq(selectIndex).hide();
@@ -169,7 +169,7 @@
 			/**
 			 * 选中包含指定文本的选择项
 			 * @param {Number} index 选择框的索引值
-			 * @param {String} text  选择框的value值 (montob修改为按id匹配)
+			 * @param {String} text  选择框的value值 (mantob修改为按id匹配)
 			 * @return {Number} 该选择框的value值
 			 */
 			function _selected(index,text){

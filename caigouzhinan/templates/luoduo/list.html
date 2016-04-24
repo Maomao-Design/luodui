@@ -16,7 +16,7 @@
 </section>
 <!--banner end -->
 <!--caigou-->
-<section class="caigou-zhinan-wrap">
+<section class="caigou-zhinan-wrap" id="caigou-zhinan-wrap">
     <div class="caigou-xuanxing">
         <div class="title">选型指导</div>
         <div class="title-en">model selection</div>
@@ -24,27 +24,19 @@
     <!--tab-->
     <div class="caigou-top-tab-wrap">
         <div class="caigou-top-tab m9 m-auto">
-            <div class="caigou-top-tab-nav on fl">
+            {list action=category pid=$cat.pid }
+            <div class="caigou-top-tab-nav {if  $t.id==$catid} on {/if} fl">
                 <table class="tb">
                     <tr>
-                        <td>
-                            JIS 标准缸 <br/>
-                            （JIS B 8354）
+                        <td style="padding: 0 142px;">
+                            <a href="{$t.url}#caigou-zhinan-wrap">
+                            {$t.name}</a>
                         </td>
                     </tr>
                 </table>
                 <div class="tab-sanjiao"></div>
             </div>
-            <div class="caigou-top-tab-nav fr">
-                <table class="tb">
-                    <tr>
-                        <td>
-                            密封应用范围
-                        </td>
-                    </tr>
-                </table>
-                <div class="tab-sanjiao"></div>
-            </div>
+            {/list}
             <div class="sline"></div>
             <div class="clear"></div>
         </div>
@@ -54,19 +46,66 @@
 <!--title-nav-->
 <section class="caigou-title-nav-wrap">
     <div class="caigou-title-nav">
-        <a href="javascript:void(0);" class="title-nav-a">低压液压缸：7MPa或更低</a>
-        <a href="javascript:void(0);" class="title-nav-a">中压液压缸：14MPa或更低</a>
-        <a href="javascript:void(0);" class="title-nav-a">中压液压缸：21MPa或更低</a>
+        {list action=module catid=$catid order=displayorder,updatetime page=1}
+        <a href="javascript:void(0);" class="title-nav-a" data-catid="{$catid}" data-id="{$t.id}" >{$t.title}</a>
+        {/list}
     </div>
 </section>
 <!--title-nav end-->
 <!--show main-->
-<section class="caigou-show-body-wrap">
-    <div class="caigou-show-body m9 m-auto">
-        <p style="text-align: center">
-            <img src="{HOME_THEME_PATH}build/images/caigou-count-1.png" alt="">
-        </p>
+<section class="caigou-show-body-wrap" id="shou-main">
+    <div class="caigou-show-body m9 m-auto" style="padding-bottom:40px;">
+        
+        <div class="loader">
+            <div class="loader-inner ball-clip-rotate-multiple">
+            <div></div>
+            <div></div>
+            </div>
+        </div>
+        
     </div>
 </section>
+<script>
+    var md = '{md5(SYS_KEY)}';
+    D(function(){
+        var tabNav = D(".caigou-title-nav"),
+            fistA = D(".caigou-title-nav a").first(),
+            id = fistA.attr("data-id");
+            fistA.addClass("on");
+            getSdata(id);
+            
+            tabNav.on("mouseover","a",function(){
+                tabNav.find("a").removeClass("on");
+                var t = D(this),
+                    id = t.attr("data-id");
+                
+                loaderHtml(D(".caigou-show-body"));
+                
+                getSdata(id);
+            })
+            
+            if(D(".caigou-banner").length > 0){
+                typewriter(D(".caigou-banner"))
+            }
+    });
+    
+    function getSdata(id){
+        getIdDate(md,'caigouzhinan',id,function(data){
+            
+            if(data){
+                if(data[0]['contents']){
+                    D(".caigou-show-body").html(data[0]['contents']);
+                }else{
+                    D(".caigou-show-body").html("小编正在努力编辑呢! (*^__^*) 嘻嘻……");
+                }
+                
+            }
+            
+        })
+    }
+    
+    
+    
+</script>
 <!--show main end-->
 {template "footer.html"}

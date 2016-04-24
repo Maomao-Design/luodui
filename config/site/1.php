@@ -27,7 +27,7 @@ return array(
 	'SITE_SEOJOIN'                  => '_', //网站SEO间隔符号
 	'SITE_KEYWORDS'                 => '盛航企业', //网站SEO关键字
 	'SITE_DESCRIPTION'              => '盛航企业', //网站SEO描述信息
-	'SITE_NAVIGATOR'                => '主导航,首页幻灯,底部导航,,,,,,,', //网站导航信息，多个导航逗号分开
+	'SITE_NAVIGATOR'                => '主导航,首页幻灯,底部导航,产品图片导航,,,,,,', //网站导航信息，多个导航逗号分开
 	'SITE_HOME_INDEX'               => 1099, //站点首页静态化有效期
 	'SITE_MODULE_INDEX'             => 999, //站点模块静态化有效期
 	'SITE_ATTACH_REMOTE'            => 0, //是否开启远程附件

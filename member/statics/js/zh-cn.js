@@ -3,10 +3,10 @@
  * Omweb Website Management System
  *
  * @since		version 2.0.0
- * @author		montob <kefu@montob.com>
- * @license     http://www.montob.com/license
- * @copyright   Copyright (c) 2011 - 9999, montob.Com, Inc.
- * @filesource	svn://www.montob.com/v2/montob/language/zh-cn/lang.js
+ * @author		mantob <kefu@mantob.com>
+ * @license     http://www.mantob.com/license
+ * @copyright   Copyright (c) 2011 - 9999, mantob.Com, Inc.
+ * @filesource	svn://www.mantob.com/v2/mantob/language/zh-cn/lang.js
  */
 
 var lang = new Array; 
