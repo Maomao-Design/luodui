@@ -209,6 +209,6 @@
 			<!-- /REVOLUTION SLIDER -->
 </section>
 <!-- REVOLUTION SLIDER -->
-<script type="text/javascript" src="<?php echo HOME_THEME_PATH; ?>build/js/_D.themepunch._tools.min.js"></script>
-<script type="text/javascript" src="<?php echo HOME_THEME_PATH; ?>build/js/_D.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="<?php echo HOME_THEME_PATH; ?>build/js/D.themepunch._tools.min.js"></script>
+<script type="text/javascript" src="<?php echo HOME_THEME_PATH; ?>build/js/D.themepunch.revolution.min.js"></script>
 <script type="text/javascript" src="<?php echo HOME_THEME_PATH; ?>build/js/revolution_slider.js"></script>
