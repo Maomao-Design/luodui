@@ -2,7 +2,7 @@
 <!--banner-->
 <section class="caigou-banner-wrap">
    
-   <div class="caigou-banner m-auto">
+   <div class="caigou-banner m-auto wow fadeInUp bg-red animated">
        <div class="title">采购流程指导</div>
        <div class="title-en">
            <span>Guide</span>
@@ -84,6 +84,7 @@
                 getSdata(id);
             })
             
+         
     });
     
     function getSdata(id){

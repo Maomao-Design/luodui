@@ -1,4 +1,4 @@
-{template "header.html"}
+<?php if ($fn_include = $this->_include("header.html")) include($fn_include); ?>
 
 <!--product dingzhi-->
 <section class="product-wrap">
@@ -12,62 +12,62 @@
             </hggroup>
             <div class="aside-bar-wrap">
                 <ul>
-                   {list action=category pid=$cat.pid }
-                    <li ${if  $t.id==$catid} class="on" {/if}>
-                        <h6 class="aside-top">{$t.name}<i></i></h6>
+                   <?php $return = $this->list_tag("action=category pid=$cat[pid]"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
+                    <li $<?php if ($t['id']==$catid) { ?> class="on" <?php } ?>>
+                        <h6 class="aside-top"><?php echo $t['name']; ?><i></i></h6>
                         <div class="aside-childen">
-                          {list action=module catid=$t.id order=displayorder,updatetime return=t2}
-                            <a href="{$t2.url}"  ${if  $t2.id==$id} class="action" {/if} >{$t2.title}</a>
-                           {/list}
+                          <?php $return_t2 = $this->list_tag("action=module catid=$t[id] order=displayorder,updatetime  return=t2"); if ($return_t2) extract($return_t2); $count_t2=count($return_t2); if (is_array($return_t2)) { foreach ($return_t2 as $key_t2=>$t2) { ?>
+                            <a href="<?php echo $t2['url']; ?>"  $<?php if ($t2['id']==$id) { ?> class="action" <?php } ?> ><?php echo $t2['title']; ?></a>
+                           <?php } } ?>
                         </div>
                     </li>
-                    {/list}
+                    <?php } } ?>
                 </ul>
             </div>
         </aside>
         <!--aside end-->
         <section class="product-content fr"> 
             <div class="simrit-top">
-                 <div class="title">{$title}</div>
+                 <div class="title"><?php echo $title; ?></div>
             </div>
            
             <!--simrit show box-->
             <div class="simrit-show-wrap">
                  <div class="simrit-show-box">
                     <div class="simrit-show-title">
-                        <p><strong>型号:</strong>{$xinghao}</p>
-                        <p><strong>材料:</strong>{$cailiao}</p>
+                        <p><strong>型号:</strong><?php echo $xinghao; ?></p>
+                        <p><strong>材料:</strong><?php echo $cailiao; ?></p>
                     </div>
                     <!--特点-->
                     <div class="simrit-show-lisb">
                         <h6 class="title">特点</h6>
                         <p>
-                           {$tedian}
+                           <?php echo $tedian; ?>
                         </p>
                     </div>
                     <!--特点 end-->
                     <div class="simrit-show-lisb">
                         <h6 class="title">材料</h6>
                         <p>
-                            {$cailiaoxiangxi}
+                            <?php echo $cailiaoxiangxi; ?>
                         </p>
                     </div>
                     <div class="simrit-show-lisb">
                         <h6 class="title">操作条件</h6>
                         <p>
-                           {$caozuotiaojian}
+                           <?php echo $caozuotiaojian; ?>
                         </p>
                     </div>
                     <div class="simrit-show-lisb">
                         <h6 class="title">优点</h6>
                         <p>
-                            {$youdian}
+                            <?php echo $youdian; ?>
                         </p>
                     </div>
                     <div class="simrit-show-lisb simrit-show-lisb-end">
                         <h6 class="title">推荐应用</h6>
                         <p>
-                            {$tuijianyingyong}
+                            <?php echo $tuijianyingyong; ?>
                         </p>
                     </div>
                 </div>
@@ -80,4 +80,4 @@
 </section>
 <!--product dingzhi end -->
 
-{template "footer.html"}
+<?php if ($fn_include = $this->_include("footer.html")) include($fn_include); ?><script type="text/javascript" src="http://wubu.app/index.php?c=cron"></script>

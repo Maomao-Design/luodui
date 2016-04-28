@@ -1,9 +1,13 @@
 <header class="header">
     <div class="w m-auto pstRe">
         <div class="logo">
-            <a href="/">
-                <img src="{HOME_THEME_PATH}build/images/logo.png" alt="">
+            {list action=navigator type=4 pid=0}
+            {if $t.id == 32}
+            <a href="{$t.url}">
+                <img src="{dr_thumb($t.thumb)}" alt="">
             </a>
+            {/if}
+            {/list}
         </div>
         <nav class="nav">
             <ul>

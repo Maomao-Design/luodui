@@ -3,14 +3,7 @@
 <section class="product-banner">
     <section class="index-search-wrap">
         <div class="index-search m-auto">
-            <form name="search" action="index.php" type="get">
-                <input type="hidden" name="c" value="so"/>
-                <input type="hidden" name="module" value="nok"/>
-                <input type="text" class="search-key" id="keyword" name="keyword"  placeholder="输入产品类型名称">
-                <button type="submit" class="index-btn">
-                    <i class="icon icon-search"></i>
-                </button>
-            </form>
+           {template "soform.html"}
         </div>
     </section>
     <!--search end-->
@@ -19,19 +12,3 @@
 <!--banner end -->
 {template "footer.html"}
 
-<!--<form name="search" action="index.php" type="get">
-    <input type="hidden" name="c" value="so"/>
-    <input type="hidden" name="module" value="{$module}"/>
-    <div class="sr_frm">
-        <div class="sr_frm_box">
-            <div class="sr_frmipt"><input type="text" id="keyword" name="keyword" class="ipt"><input type="submit" class="ss_btn" value="搜 索"></div>
-        </div>
-    </div>
-</form>
-<script language="JavaScript">
-    <!--
-    $(document).ready(function(){
-        $("#keyword").focus();
-    });
-</script>
-    //-->

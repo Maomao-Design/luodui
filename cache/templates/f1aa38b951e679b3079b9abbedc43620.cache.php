@@ -25,6 +25,7 @@
 <link href="<?php echo HOME_THEME_PATH; ?>build/css/app.css" type="text/css" rel="stylesheet"  >
 <link rel="dns-prefetch" href="">
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo HOME_THEME_PATH; ?>favicon.ico?v=0.4.5.2">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 <script type="text/javascript">
    var siteUrl = '<?php echo SITE_URL; ?>',
         md5 = '<?php echo md5(SYS_KEY); ?>';

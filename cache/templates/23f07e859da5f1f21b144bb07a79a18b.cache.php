@@ -1,9 +1,11 @@
 <header class="header">
     <div class="w m-auto pstRe">
         <div class="logo">
-            <a href="/">
-                <img src="<?php echo HOME_THEME_PATH; ?>build/images/logo.png" alt="">
+            <?php $return = $this->list_tag("action=navigator type=4 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) {  if ($t['id'] == 32) { ?>
+            <a href="<?php echo $t['url']; ?>">
+                <img src="<?php echo dr_thumb($t['thumb']); ?>" alt="">
             </a>
+            <?php }  } } ?>
         </div>
         <nav class="nav">
             <ul>

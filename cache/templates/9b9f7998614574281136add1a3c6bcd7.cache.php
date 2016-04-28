@@ -189,8 +189,8 @@ function getRadioCss(){
                 <div class="onShow"><?php echo lang('html-382'); ?></div>
             </td>
         </tr>
-        <tr class="mantype_box mantype_1">
-            <th><font color="red">*</font>&nbsp;主图片： </th>
+        <tr class="">
+            <th>&nbsp;主图片： </th>
             <td>
                 <?php echo dr_field_input('thumb', 'File', $field['thumb']['setting'], $data['thumb']); ?>
                 <div class="onShow"><?php echo lang('html-381'); ?></div>

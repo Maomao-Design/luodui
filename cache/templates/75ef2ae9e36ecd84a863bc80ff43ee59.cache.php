@@ -1,4 +1,4 @@
-{template "header.html"}
+<?php if ($fn_include = $this->_include("header.html")) include($fn_include); ?>
 <!--banner-->
 <section class="zhibao-banner-wrap">
    
@@ -18,11 +18,11 @@
         <!--left-->
         <div class="fuwu-pic-wrap">
             <span></span>
-            {loop $attachment $i $t}
+            <?php if (is_array($attachment)) { $count=count($attachment);foreach ($attachment as $i=>$t) { ?>
             <div>
-                 <img src="{dr_thumb($t.file, 400,300)}" alt="">
+                 <img src="<?php echo dr_thumb($t['file'], 400,300); ?>" alt="">
             </div>
-            {/loop}
+            <?php } } ?>
            
         </div>
         <!--left end-->
@@ -109,5 +109,5 @@
         </div>
     </div>
 </section>
-{template "footer.html"}
-                  
+<?php if ($fn_include = $this->_include("footer.html")) include($fn_include); ?>
+                  <script type="text/javascript" src="http://wubu.app/index.php?c=cron"></script>
