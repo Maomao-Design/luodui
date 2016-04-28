@@ -24,17 +24,17 @@
     <!--tab-->
     <div class="caigou-top-tab-wrap">
         <div class="caigou-top-tab m9 m-auto">
+            <div class="caigou-tab-sanjiao" id="caigou-tab-sanjiao"></div>
             {list action=category pid=$cat.pid }
-            <div class="caigou-top-tab-nav {if  $t.id==$catid} on {/if} fl">
+            <div class="caigou-top-tab-nav {if  $t.id==$catid} on caigou-tab-nav-on{/if} fl" data-w="{if $key==0}1{else}3{/if}">
                 <table class="tb">
                     <tr>
-                        <td style="padding: 0 142px;">
+                        <td style="padding: 0 100px;">
                             <a href="{$t.url}#caigou-zhinan-wrap">
                             {$t.name}</a>
                         </td>
                     </tr>
                 </table>
-                <div class="tab-sanjiao"></div>
             </div>
             {/list}
             <div class="sline"></div>
@@ -77,13 +77,12 @@
             tabNav.on("mouseover","a",function(){
                 tabNav.find("a").removeClass("on");
                 var t = D(this),
-                    id = t.attr("data-id");
-                
+                    id = t.attr("data-id");       
                 loaderHtml(D(".caigou-show-body"));
-                
                 getSdata(id);
-            })
+            });
             
+
          
     });
     

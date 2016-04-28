@@ -24,17 +24,17 @@
     <!--tab-->
     <div class="caigou-top-tab-wrap">
         <div class="caigou-top-tab m9 m-auto">
+            <div class="caigou-tab-sanjiao" id="caigou-tab-sanjiao"></div>
             <?php $return = $this->list_tag("action=category pid=$cat[pid]"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
-            <div class="caigou-top-tab-nav <?php if ($t['id']==$catid) { ?> on <?php } ?> fl">
+            <div class="caigou-top-tab-nav <?php if ($t['id']==$catid) { ?> on caigou-tab-nav-on<?php } ?> fl" data-w="<?php if ($key==0) { ?>1<?php } else { ?>3<?php } ?>">
                 <table class="tb">
                     <tr>
-                        <td style="padding: 0 142px;">
+                        <td style="padding: 0 100px;">
                             <a href="<?php echo $t['url']; ?>#caigou-zhinan-wrap">
                             <?php echo $t['name']; ?></a>
                         </td>
                     </tr>
                 </table>
-                <div class="tab-sanjiao"></div>
             </div>
             <?php } } ?>
             <div class="sline"></div>
@@ -77,13 +77,12 @@
             tabNav.on("mouseover","a",function(){
                 tabNav.find("a").removeClass("on");
                 var t = D(this),
-                    id = t.attr("data-id");
-                
+                    id = t.attr("data-id");       
                 loaderHtml(D(".caigou-show-body"));
-                
                 getSdata(id);
-            })
+            });
             
+
          
     });
     
