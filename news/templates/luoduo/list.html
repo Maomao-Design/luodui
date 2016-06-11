@@ -1,39 +1,46 @@
 {template "header.html"}
-<!--product dingzhi-->
-<section class="product-wrap">
-  <div class="product-box w m-auto">
-        {template "side.html"}
-        <!--aside end-->
-        <section class="product-content fr" style="width:890px;" >
-           <div class="news-lsit-top">
-               <div class="title">{$ci->get_cache('module-1-news', 'category', $catid, 'name')}</div>
-            </div>
-            <div class="news-lsit-wrap">
-                <div class="paging-wrap">
-                </div>
-                <div class="news-list-main">
+{template "mian.html"}
+            <!--left-->
+            <div class="news-main-l">
+                <div class="news-list-wrap">
                     <ul>
                         {list action=module catid=$catid order=displayorder,updatetime page=1}
                         <li>
-                            <a href="{$t.url}">{$t.title} <span class="fr">更多</span></a>
-                        </li>                        
+                            <div class="title">
+                                <a href="{$t.url}">
+                                    <span>{$t.title}</span>
+                                </a>
+                            </div>
+                            <time class="time">{dr_date($t._updatetime, 'Y-m-d')}</time>
+                            <div class="thumb">
+                                <a href="{$t.url}">
+                                    <img src="{dr_thumb($t.thumb)}" alt="{$t.title}">
+                                </a>
+                            </div>
+                            <div class="contents">
+                                <p>
+                                    {$t.description}.....
+                                </p>
+                            </div>
+                        </li>
                         {/list}
+
                     </ul>
-                   
                 </div>
-                <div class="hide-pages" style="display: none;"> 
-                   {$pages}
+                <div class="paging-box">
+                    <ul>
+                    {$pages}
+                    </ul>
                 </div>
             </div>
-        </section>
-        <div class="clear"></div>
-  </div>
-  <script>
-      D(function(){         
-         D(".paging-wrap").html(D(".hide-pages").html());          
-      });
-  </script>
+            <!--left end-->
+            <!--right-->
+            {template "right.html"}
+            <!--right end-->
+            <div class="clear"></div>
+
+        </div>
+    </div>
 </section>
-<!--product dingzhi end -->
 {template "footer.html"}
 

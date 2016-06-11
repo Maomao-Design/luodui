@@ -1,0 +1,11 @@
+<li class="{if  $key<3} fist {/if}">
+    <a href="{$t.url}">
+        <span class="num">{$key+1}</span>
+                                    <span class="txt">
+                                        {dr_strcut($t.title, 20)}
+                                    </span>
+                                    <span class="time">
+                                       {dr_date($t._updatetime, 'm/d')}
+                                    </span>
+    </a>
+</li>

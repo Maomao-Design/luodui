@@ -14,7 +14,7 @@
                 <ul>
                    {list action=category pid=$cat.pid }
                     <li ${if  $t.id==$catid} class="on" {/if}>
-                        <h6 class="aside-top">{$t.name} {$t.id}<i></i></h6>
+                        <h6 class="aside-top">{$t.name} <i></i></h6>
                         <div class="aside-childen">
                           {list action=module catid=$t.id order=displayorder,updatetime return=t2}
                             <a href="{$t2.url}"  ${if  $t2.id==$id} class="action" {/if} >{$t2.title}</a>
@@ -26,8 +26,25 @@
             </div>
         </aside>
         <!--aside end-->
-        <section class="product-content fr"> 
-               {$content}
+        <section class="product-content fr">
+            <div class="dingzing-title">
+                {$title}
+            </div>
+            <div class="product-dingzing-wrap">
+                <!--img show-->
+                <div class="product-dingzing-top">
+                    {$content}
+                </div>
+                <!--img show end-->
+                <div class="product-dingzing-tb-wp">
+                    <div class="product-dingzing-1 fl">
+                        {$table1}
+                    </div>
+                    <div class="product-dingzing-2 fr">
+                        {$table2}
+                    </div>
+                </div>
+            </div>
         </section>
         <div class="clear"></div>
   </div>  

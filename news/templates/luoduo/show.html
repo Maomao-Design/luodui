@@ -1,23 +1,39 @@
 {template "header.html"}
-<!--product dingzhi-->
-<section class="product-wrap">
-  <div class="product-box w m-auto">
-        {template "side.html"}
-        <!--aside end-->
-        <section class="product-content fr" style="width:890px;" >
-           
-              <div class="new-show-wrap">
-                <div class="show-title">
-                    {$title}
-                </div>
-                <div class="show-body">
-                    {$content}
-                </div>
-            </div>
-        </section>
-        <div class="clear"></div>
-  </div>
+{template "mian.html"}
+<!--left-->
+<div class="news-main-l">
+    <!--show-->
+    <div class="news-show">
+        <div class="title">{$title}</div>
+        <div class="time">{$updatetime}</div>
+        <div class="thumb">
+            <img src="{dr_thumb($thumb)}" alt="{$title}">
+        </div>
+        <div class="contents">
+            {$content}
+        </div>
+    </div>
+    <!--show end-->
+    <div class="new-show-foot">
+        <a href="javascript:void(0);" onclick="history.go(-1)" class=""> << 返回 </a>
+                    <span class="fr">
+                        {if $prev_page}
+                        <a href="{$prev_page.url}"> < 上一篇</a>
+                        {/if}
+                        {if $next_page}
+                        <a href="{$next_page.url}">下一篇 > </a>
+                        {/if}
+                    </span>
+    </div>
+</div>
+<!--left end-->
+<!--right-->
+{template "right.html"}
+<!--right end-->
+<div class="clear"></div>
+
+</div>
+</div>
 </section>
-<!--product dingzhi end -->
 {template "footer.html"}
 

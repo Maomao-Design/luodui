@@ -1,7 +1,11 @@
 
 {template "header.html"}
 <!--banner-->
-<section class="from-wrap">
+{list action=navigator type=4 pid=0}
+{if $t.id == 37}
+<section class="from-wrap" style="background-image: url('{dr_thumb($t.thumb)}')" />
+{/if}
+{/list}
     <!--from box-->
    <div class="from-box">
        <div class="from-main m-auto">

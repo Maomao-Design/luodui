@@ -1,0 +1,22 @@
+<div class="news-main-r fr">
+    <div class="new-s-tabs">
+        <a href="javascript:void(0);" class="on">最新要闻</a>
+        <a href="javascript:void(0);">热门要闻</a>
+    </div>
+    <div class="new-s-tab-main">
+        <div class="new-s-tab-content show">
+            <ul>
+                {list action=module flag=1  order=displayorder,updatetime num=10}
+                {template "flag.html"}
+                {/list}
+            </ul>
+        </div>
+        <div class="new-s-tab-content">
+            <ul>
+                {list action=module flag=2  order=displayorder,updatetime num=10}
+                {template "flag.html"}
+                {/list}
+            </ul>
+        </div>
+    </div>
+</div>

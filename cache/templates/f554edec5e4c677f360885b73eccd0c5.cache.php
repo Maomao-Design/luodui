@@ -9,8 +9,10 @@
     </div>
 </section>
 <!--search end-->
-<section class="index-product-wrap wb100">
-    <?php if ($fn_include = $this->_include("navimg.html")) include($fn_include); ?>
+
+<?php $return = $this->list_tag("action=navigator type=4 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) {  if ($t['id'] == 34) { ?>
+<section class="index-product-wrap wb100" style="background-image: url('<?php echo dr_thumb($t['thumb']); ?>')" />
+<?php }  } }  if ($fn_include = $this->_include("navimg.html")) include($fn_include); ?>
 </section>
 <!--about-->
 <section class="index-about-wrap wb100 wow fadeInUp bg-red animated">
@@ -40,7 +42,9 @@
 </section>
 <!--about end -->
 <!--contact-->
-<section class="index-contact-wrap wb100 wow fadeInUp bg-red animated">
+<?php $return = $this->list_tag("action=navigator type=4 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) {  if ($t['id'] == 35) { ?>
+<section class="index-contact-wrap wb100 wow fadeInUp bg-red animated" style="background-image: url('<?php echo dr_thumb($t['thumb']); ?>')" />
+<?php }  } } ?>
     <div class="index-contact w m-auto">
         <div class="index-ct-box-1">
             <i class="fa fa-map-marker"></i>

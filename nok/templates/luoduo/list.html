@@ -10,13 +10,6 @@
             {template "name.html"}
             <div class="nok-list-wrap">
                 <!--paging-->
-                <div class="paging-wrap">
-                    <!--<a href="" class="next-btn" ></a>
-                    <span class="paging-num">
-                        1/9
-                    </span>-->
-                </div>
-                <!--paging end-->
                 <!--list box-->
                 <div class="nok-list-main">
                     <table class="tb">
@@ -27,38 +20,36 @@
                             <th class="th2">外径（D）</th>
                             <th class="th2">宽（b）（h）</th>
                         </tr>
-                        {list action=module catid=$catid order=displayorder,updatetime page=1 pagesize=20 return=t}
-                        <tr>
-                            <td class="td1"><a href="{$t.url}">{$t.title}</a></td>
-                            <td class="td2">
-                                {$t.xinghao}
-                            </td>
-                            <td class="td2">
-                               {$t.zhoujing}
-                            </td>
-                            <td class="td2">
-                               {$t.waijing}
-                            </td>
-                            <td class="td2">
-                                {$t.kuan}
-                            </td>
-                        </tr>
+
+                        {list action=module catid=$catid order=displayorder,updatetime page=1}
+                            <tr>
+                                <td class="td1"><a href="{$t.url}">{$t.title}</a></td>
+                                <td class="td2">
+                                    {$t.xinghao}
+                                </td>
+                                <td class="td2">
+                                   {$t.zhoujing}
+                                </td>
+                                <td class="td2">
+                                   {$t.waijing}
+                                </td>
+                                <td class="td2">
+                                    {$t.kuan}
+                                </td>
+                            </tr>
                         {/list}
                     </table>
                 </div>
                 <!--list box end-->
-                <div class="hide-pages" style="display: none;"> 
-                   {$pages}
+                <div class="paging-box" style="padding-top: 20px;">
+                    <ul>
+                        {$pages}
+                    </ul>
                 </div>
             </div>
         </section>
         <div class="clear"></div>
   </div>
-  <script>
-      D(function(){         
-         D(".paging-wrap").html(D(".hide-pages").html());          
-      });
-  </script>
 </section>
 <!--product dingzhi end -->
 
