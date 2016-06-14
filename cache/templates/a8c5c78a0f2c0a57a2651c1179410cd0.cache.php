@@ -1,11 +1,11 @@
-{template "header.html"}
+<?php if ($fn_include = $this->_include("header.html")) include($fn_include); ?>
 
 <!--banner-->
 <section class="about-banner-wrap wb100">
 
     <div class="about-banner">
         <div class="about-1">
-            <img src="{HOME_THEME_PATH}build/images/about1.png" alt="">
+            <img src="<?php echo HOME_THEME_PATH; ?>build/images/about1.png" alt="">
         </div>
         <div class="about-1-text">
             <div class="title-en">Company Introduction</div>
@@ -43,9 +43,9 @@
         <!--rigth-->
         <div class="about-2-banner">
             <div class="swiper-wrapper">
-                {list action=navigator order=displayorder type=5 pid=0}
-                <div class="swiper-slide" style="background-image:url({dr_thumb($t.thumb)})"></div>
-                {/list}
+                <?php $return = $this->list_tag("action=navigator order=displayorder type=5 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
+                <div class="swiper-slide" style="background-image:url(<?php echo dr_thumb($t['thumb']); ?>)"></div>
+                <?php } } ?>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination swiper-pagination-white"></div>
@@ -58,9 +58,9 @@
         <!--left-->
         <div class="about-3-banner">
             <div class="swiper-wrapper">
-                {list action=navigator order=displayorder type=6 pid=0}
-                <div class="swiper-slide" style="background-image:url({dr_thumb($t.thumb)})"></div>
-                {/list}
+                <?php $return = $this->list_tag("action=navigator order=displayorder type=6 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
+                <div class="swiper-slide" style="background-image:url(<?php echo dr_thumb($t['thumb']); ?>)"></div>
+                <?php } } ?>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination swiper-pagination-white"></div>
@@ -107,9 +107,9 @@
         <!--right-->
         <div class="about-4-banner">
             <div class="swiper-wrapper" style="height:442px;">
-                {list action=navigator order=displayorder type=7 pid=0}
-                <div class="swiper-slide" style="background-image:url({dr_thumb($t.thumb)})"></div>
-                {/list}
+                <?php $return = $this->list_tag("action=navigator order=displayorder type=7 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) { ?>
+                <div class="swiper-slide" style="background-image:url(<?php echo dr_thumb($t['thumb']); ?>)"></div>
+                <?php } } ?>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination swiper-pagination-white" style="padding-right:0"></div>
@@ -123,7 +123,7 @@
     <div class="w m-auto">
         <!--left-->
         <div class="about-5-banner">
-            <img src="{HOME_THEME_PATH}build/images/about5.png" alt="">
+            <img src="<?php echo HOME_THEME_PATH; ?>build/images/about5.png" alt="">
         </div>
         <!--left end-->
         <!--right-->
@@ -149,7 +149,7 @@
         <ul class="about-6-u">
             <li class="li1 fl">
                 <div class="thumb">
-                    <img src="{HOME_THEME_PATH}build/images/about6.1.png" alt="">
+                    <img src="<?php echo HOME_THEME_PATH; ?>build/images/about6.1.png" alt="">
                 </div>
                 <div class="contents">
                     <p>共创多赢</p>
@@ -158,7 +158,7 @@
             </li>
             <li class="li2">
                 <div class="thumb">
-                    <img src="{HOME_THEME_PATH}build/images/about6.2.png" alt="">
+                    <img src="<?php echo HOME_THEME_PATH; ?>build/images/about6.2.png" alt="">
                 </div>
                 <div class="contents">
                     <p>质量保证</p>
@@ -167,7 +167,7 @@
             </li>
             <li class="li3 fr">
                 <div class="thumb">
-                    <img src="{HOME_THEME_PATH}build/images/about6.3.png" alt="">
+                    <img src="<?php echo HOME_THEME_PATH; ?>build/images/about6.3.png" alt="">
                 </div>
                 <div class="contents">
                     <p>创新务实</p>
@@ -178,10 +178,10 @@
     </div>
 </section>
 <!--6 end-->
-{template "footer.html"}
+<?php if ($fn_include = $this->_include("footer.html")) include($fn_include); ?>
 <script>
     D(function () {
         aboutSwiper();
     })
 
-</script>
+</script><script type="text/javascript" src="http://wubu.app/index.php?c=cron"></script>

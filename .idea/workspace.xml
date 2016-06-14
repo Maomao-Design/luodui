@@ -2,60 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962f681f-c4e7-404a-b001-89fc9734b69e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mantob/statics/zanjs/assets/关于导航链接操作.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mantob/statics/zanjs/assets/搜索产品关键字设置.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/templates/luoduo/flag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/templates/luoduo/mian.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news/templates/luoduo/right.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/3bd77eec54c67dd0837706debe36dbd0" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/77530147ebbdbc2c38664cd7ccd2471e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/a7895363825cf4180a8afd66aa87adbf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/27aad056c3842b7263941f6c6fa56d9e.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/3a2b1388705c5c08fdc42fca3b329c93.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/470d87a1d62aac4bfad19f637e5d6001.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/47cf4b7b85ca71a90fc67ae0370bf844.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/51c0d3f7ba1353e8f44b0f6d9674dd4b.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/674be969645897f7667ce8694dbdbdb0.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/7059a7754bce5137b42c91a18c7110ed.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/75ef2ae9e36ecd84a863bc80ff43ee59.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/8af53962061b24daf9ee8d6978a26467.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/8f1bb7274146fc45faf3d60a2bfd260f.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/9b9f7998614574281136add1a3c6bcd7.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/9f8f6a81326c557a6e191c11693b3344.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/a29d63de832bb3da901b937366f653e9.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/bd7277a0ed93acc31bf0bf65d268aaed.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/f92e35707c95c6184f78cfab338d7a79.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/member/uploadfile/ueditor/201604/b1a305c9af.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/module-1-dingzhi.cache.php" afterPath="$PROJECT_DIR$/cache/data/module-1-dingzhi.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/module-1-news.cache.php" afterPath="$PROJECT_DIR$/cache/data/module-1-news.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/module-1-nok.cache.php" afterPath="$PROJECT_DIR$/cache/data/module-1-nok.cache.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/031da4864a35334aa6cb14a9a32067ff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/46d129cf5d91d24cc7ec564e20cc17fc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/a77ff2884bacff06e9986f4921fcf01e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/file/f28c7831e8b70884c423d9c25ab3988b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/163fab416ffb798368304e3097248461.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/1d8baa92765647e21c4a9a52fbe48bbb.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/24d4bcac87a157463e8018a4e60db4ab.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/29c431aaa0ccc44b81ead5dbe45629a5.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/33913eca5b6812866950fc1bab9ac1f2.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/51f017386a36d50470ba1c5a3f34794b.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/5b842511c77b578920db097b2b1ce02c.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/68492a2b21436c1045e230ed97c2d99c.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/7791e489dde89d7bd702dbc115f010b0.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/966391d30fa7b26f5dc6f489bcfed5bd.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/9cb4e4ca757ba7c1cb982eda31083a02.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/e40f238735541b85fa7311c5a5e6f462.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/eb425eaba8a0fb43e2dac861e1044de4.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/ed84d1f493f689087403d21984108e85.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/f53272f22cb94792955bfc0e6575ada3.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/f554edec5e4c677f360885b73eccd0c5.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/templates/f6c1ab1b8e9f502a96d0a07ee323cdd2.cache.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/navigator-1.cache.php" afterPath="$PROJECT_DIR$/cache/data/navigator-1.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/page-1.cache.php" afterPath="$PROJECT_DIR$/cache/data/page-1.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/table.cache.php" afterPath="$PROJECT_DIR$/cache/data/table.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/templates/f1aa38b951e679b3079b9abbedc43620.cache.php" afterPath="$PROJECT_DIR$/cache/templates/f1aa38b951e679b3079b9abbedc43620.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/templates/f554edec5e4c677f360885b73eccd0c5.cache.php" afterPath="$PROJECT_DIR$/cache/templates/f554edec5e4c677f360885b73eccd0c5.cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/caigouzhinan/templates/luoduo/list.html" afterPath="$PROJECT_DIR$/caigouzhinan/templates/luoduo/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/pagination.php" afterPath="$PROJECT_DIR$/config/pagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dingzhi/templates/luoduo/show.html" afterPath="$PROJECT_DIR$/dingzhi/templates/luoduo/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/data/siteinfo.cache.php" afterPath="$PROJECT_DIR$/cache/data/siteinfo.cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/site/1.php" afterPath="$PROJECT_DIR$/config/site/1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css" afterPath="$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/statics/zanjs/build/js/D.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/mantob/statics/zanjs/build/js/D.themepunch.revolution.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/statics/zanjs/build/js/app.js" afterPath="$PROJECT_DIR$/mantob/statics/zanjs/build/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/system/libraries/Pagination.php" afterPath="$PROJECT_DIR$/mantob/system/libraries/Pagination.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/about.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/contact.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/form.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/form_1_2.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/form_1_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/header.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/index.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/so.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/so.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/solist.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/solist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html" afterPath="$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/templates/luoduo/list.html" afterPath="$PROJECT_DIR$/news/templates/luoduo/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/templates/luoduo/show.html" afterPath="$PROJECT_DIR$/news/templates/luoduo/show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nok/templates/luoduo/list.html" afterPath="$PROJECT_DIR$/nok/templates/luoduo/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nok/templates/luoduo/show.html" afterPath="$PROJECT_DIR$/nok/templates/luoduo/show.html" />
     </list>
     <ignored path="mantob.iws" />
@@ -78,58 +52,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nok/templates/hunTpl/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="1" column="103420" selection-start-line="1" selection-start-column="103420" selection-end-line="1" selection-end-column="103420" />
-              <folding>
-                <element signature="e#5966#6224#2" expanded="true" />
-                <element signature="e#6365#6623#2" expanded="true" />
-                <element signature="e#6743#7001#2" expanded="true" />
-                <element signature="e#7081#7339#2" expanded="true" />
-                <element signature="e#7480#7738#2" expanded="true" />
-                <element signature="e#7858#8116#2" expanded="true" />
-                <element signature="e#14431#15878#2" expanded="true" />
-                <element signature="e#16132#17576#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pagination.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/pagination.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="780">
               <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding />
             </state>
@@ -149,14 +75,14 @@
       <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dingzhi/templates/luoduo/show.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="240">
               <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -166,12 +92,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/header.html">
+      <file leaf-file-name="zhibao.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="1800">
+              <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nok/templates/luoduo/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16973">
+              <caret line="1" column="103420" selection-start-line="1" selection-start-column="103420" selection-end-line="1" selection-end-column="103420" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/banner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="79" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,21 +149,11 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nok/templates/luoduo/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="645">
               <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/news/templates/luoduo/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,21 +176,21 @@
         <option value="$PROJECT_DIR$/mantob/templates/luoduo/solist.html" />
         <option value="$PROJECT_DIR$/mantob/templates/luoduo/form_1_2.html" />
         <option value="$PROJECT_DIR$/mantob/templates/luoduo/form.html" />
-        <option value="$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html" />
         <option value="$PROJECT_DIR$/caigouzhinan/templates/luoduo/list.html" />
         <option value="$PROJECT_DIR$/mantob/templates/luoduo/contact.html" />
         <option value="$PROJECT_DIR$/mantob/templates/luoduo/header.html" />
-        <option value="$PROJECT_DIR$/nok/templates/luoduo/show.html" />
         <option value="$PROJECT_DIR$/news/templates/luoduo/flag.html" />
         <option value="$PROJECT_DIR$/news/templates/luoduo/right.html" />
         <option value="$PROJECT_DIR$/news/templates/luoduo/mian.html" />
         <option value="$PROJECT_DIR$/news/templates/luoduo/show.html" />
-        <option value="$PROJECT_DIR$/mantob/templates/luoduo/about.html" />
         <option value="$PROJECT_DIR$/news/templates/luoduo/list.html" />
         <option value="$PROJECT_DIR$/nok/templates/luoduo/list.html" />
         <option value="$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css" />
         <option value="$PROJECT_DIR$/config/pagination.php" />
         <option value="$PROJECT_DIR$/dingzhi/templates/luoduo/show.html" />
+        <option value="$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html" />
+        <option value="$PROJECT_DIR$/nok/templates/luoduo/show.html" />
+        <option value="$PROJECT_DIR$/mantob/templates/luoduo/about.html" />
       </list>
     </option>
   </component>
@@ -244,8 +204,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="23" />
+    <option name="x" value="307" />
+    <option name="y" value="101" />
     <option name="width" value="1436" />
     <option name="height" value="877" />
   </component>
@@ -294,6 +254,60 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="luoduo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantob" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -309,11 +323,11 @@
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.10.1/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mantob/statics/zanjs/assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mantob/statics/zanjs/build/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mantob/statics/zanjs/assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -365,19 +379,21 @@
       <workItem from="1462787386916" duration="248000" />
       <workItem from="1463704826022" duration="742000" />
       <workItem from="1465472481978" duration="243000" />
-      <workItem from="1465606186214" duration="9967000" />
+      <workItem from="1465606186214" duration="10160000" />
+      <workItem from="1465810544017" duration="1489000" />
+      <workItem from="1465881379644" duration="438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15118000" />
+    <option name="totallyTimeSpent" value="17238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="23" width="1436" height="877" extended-state="0" />
+    <frame x="307" y="101" width="1436" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22381635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24677187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25394547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -413,19 +429,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/news/templates/luoduo/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news/templates/luoduo/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -433,7 +440,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -441,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -459,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,7 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -508,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +517,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -566,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/caigouzhinan/templates/luoduo/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -660,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,17 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nok/templates/luoduo/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="146" column="46" selection-start-line="146" selection-start-column="46" selection-end-line="146" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,9 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,9 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="71" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,24 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="180" column="22" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nok/templates/luoduo/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="645">
           <caret line="43" column="65" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#div#0;n#section#0;n#!!top" expanded="true" />
@@ -795,26 +741,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="1" column="103420" selection-start-line="1" selection-start-column="103420" selection-end-line="1" selection-end-column="103420" />
-          <folding>
-            <element signature="e#5966#6224#2" expanded="true" />
-            <element signature="e#6365#6623#2" expanded="true" />
-            <element signature="e#6743#7001#2" expanded="true" />
-            <element signature="e#7081#7339#2" expanded="true" />
-            <element signature="e#7480#7738#2" expanded="true" />
-            <element signature="e#7858#8116#2" expanded="true" />
-            <element signature="e#14431#15878#2" expanded="true" />
-            <element signature="e#16132#17576#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/pagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state relative-caret-position="780">
           <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding />
         </state>
@@ -830,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dingzhi/templates/luoduo/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="240">
           <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding />
         </state>
@@ -841,6 +770,50 @@
         <state relative-caret-position="60">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/zhibao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nok/templates/luoduo/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="12" selection-start-column="16" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mantob/statics/zanjs/build/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16973">
+          <caret line="1" column="103420" selection-start-line="1" selection-start-column="103420" selection-end-line="1" selection-end-column="103420" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="79" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mantob/templates/luoduo/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
