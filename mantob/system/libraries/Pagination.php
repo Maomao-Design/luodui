@@ -1043,11 +1043,14 @@ class CI_Pagination {
 
 
 			//中间页码
-    //    if($cur_page != 1 && $cur_page >= 4 && $num_pages != 4){
+       if($cur_page != 1 && $cur_page >= 4 && $num_pages != 4){
 
-    //     $output .= '<a href="" class="tcdNumber">1</a>';
+        // Take the general parameters, and squeeze this pagination-page attr in for JS frameworks.
+			$attributes = sprintf('%s %s="%d"', $this->_attributes, $this->data_page_attr, 1);
 
-    //    }
+			$output .= $this->num_tag_open.'<a href="'.str_replace('{page}', 1, $this->base_url).'"'.$attributes.$this->_attr_rel('start').'>1</a>'.$this->num_tag_close;
+
+       	}
        if($cur_page-2 > 2 && $cur_page <= $num_pages && $num_pages > 5){
          $output .= '<span>...</span>';
        }
@@ -1088,11 +1091,16 @@ class CI_Pagination {
        if($cur_page + 2 < $num_pages - 1 && $cur_page >= 1 && $num_pages > 5){
          $output .= '<span>...</span>';
        }
-    //    if($cur_page != $num_pages && $cur_page < $num_pages -2  && $num_pages != 4){
+       if($cur_page != $num_pages && $cur_page < $num_pages -2  && $num_pages != 4){
 
-    //      $output .= '<a href="" class="tcdNumber">'.$loop.'</a>';
+         $i = ($this->use_page_numbers) ? $num_pages : ($num_pages * $this->per_page) - $this->per_page;
 
-    //    }
+			$attributes = sprintf('%s %s="%d"', $this->_attributes, $this->data_page_attr, (int) $i);
+
+			$output .= $this->num_tag_open.'<a href="'.str_replace('{page}', $i, $this->base_url).'"'.$attributes.'>'
+				.$num_pages.'</a>'.$this->num_tag_close;
+
+       }
 
 
 
