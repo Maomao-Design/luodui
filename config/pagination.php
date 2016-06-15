@@ -45,13 +45,13 @@ $config['pagination'] = array(
 	'num_tag_close' => '</li>', // “数字”链接的关闭标签
 
 	// 自定义“最后一页”链接
-	'last_link' => FALSE, // 你希望在分页的右边显示“最后一页”链接的名字。如果你不希望显示，可以把它的值设为 FALSE
-	'last_tag_open' => '<li class="last">', // “最后一页”链接的打开标签
+	'last_link' => '>>', // 你希望在分页的右边显示“最后一页”链接的名字。如果你不希望显示，可以把它的值设为 FALSE
+	'last_tag_open' => '<li class="prev">', // “最后一页”链接的打开标签
 	'last_tag_close' => '</li>', // “最后一页”链接的关闭标签
 
 	// 自定义“第一页”链接
-	'first_link' => FALSE, // 你希望在分页的左边显示“第一页”链接的名字。如果你不希望显示，可以把它的值设为 FALSE
-	'first_tag_open' => '<li class="first">', // “第一页”链接的打开标签
+	'first_link' => '<<', // 你希望在分页的左边显示“第一页”链接的名字。如果你不希望显示，可以把它的值设为 FALSE
+	'first_tag_open' => '<li class="next">', // “第一页”链接的打开标签
 	'first_tag_close' => '</li>', // “第一页”链接的关闭标签
 
 	// 是否显示数字链接

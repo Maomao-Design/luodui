@@ -1,5 +1,4 @@
-{template "header.html"}
-{template "mian.html"}
+
             <!--left-->
             <div class="news-main-l">
                 <div class="news-list-wrap">
@@ -11,17 +10,7 @@
                                     <span>{$t.title}</span>
                                 </a>
                             </div>
-                            <time class="time">{dr_date($t._updatetime, 'Y-m-d')}</time>
-                            <div class="thumb">
-                                <a href="{$t.url}">
-                                    <img src="{dr_thumb($t.thumb)}" alt="{$t.title}">
-                                </a>
-                            </div>
-                            <div class="contents">
-                                <p>
-                                    {$t.description}.....
-                                </p>
-                            </div>
+
                         </li>
                         {/list}
 
@@ -33,14 +22,6 @@
                     </ul>
                 </div>
             </div>
-            <!--left end-->
-            <!--right-->
-            {template "right.html"}
-            <!--right end-->
-            <div class="clear"></div>
 
-        </div>
-    </div>
-</section>
-{template "footer.html"}
+
 

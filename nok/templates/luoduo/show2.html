@@ -1,0 +1,145 @@
+{template "header.html"}
+
+<!--product dingzhi-->
+<section class="product-wrap">
+    <div class="product-box w m-auto">
+        <!--aside-->
+        {template "sider.html"}
+        <!--aside end-->
+        <section class="product-content fr">
+            {template "name.html"}
+            <!--nok show box-->
+            <div class="nok-show-wrap">
+                <div class="black-page">
+                    <a href="javascript:void(0);" onclick="history.go(-1)" > &lt;&lt; 返回 </a>
+                </div>
+                <!--thumb-->
+                <div class="img-show">
+                    <img src="{dr_thumb($thumb)}" alt="{$title}">
+                </div>
+                <!--thumb end -->
+                <!--parameter-->
+                <div class="nok-parameter-wrap">
+                    <div class="nok-parameter">
+                        <div class="title">{$title}</div>
+                        <div class="content-box">
+                            <table class="tb">
+                                <tr>
+                                    <td class="td1">
+                                        分类
+                                    </td>
+                                    <td class="td2">
+                                        {dr_catpos($catid, '/',false)}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        型号
+                                    </td>
+                                    <td class="td2">
+                                        {$xinghao}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        封装
+                                    </td>
+                                    <td class="td2">
+                                        {$fengzhuang}
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="td1">
+                                        库存量
+                                    </td>
+                                    <td class="td2">
+                                        {$kucunliang}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        价格
+                                    </td>
+                                    <td class="td2">
+                                        {$jiage}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        批号
+                                    </td>
+                                    <td class="td2">
+                                        {$tpihao}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        交货期
+                                    </td>
+                                    <td class="td2">
+                                        {$jiaohuoqi}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        更新日期
+                                    </td>
+                                    <td class="td2">
+                                        {$updatetime}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        名义编号JIS
+                                    </td>
+                                    <td class="td2">
+                                        {$mingyibianhaojis}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        截径 W
+                                    </td>
+                                    <td class="td2">
+                                        {$jiejingw}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        内径do
+                                    </td>
+                                    <td class="td2">
+                                        {$neijingdo}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        NOK零件号
+                                    </td>
+                                    <td class="td2">
+                                        {$noklingjianhao}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td1">
+                                        产品说明
+                                    </td>
+                                    <td class="td2">
+                                        {$chanpinshuoming}
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!--parameter end-->
+            </div>
+            <!--nok show box end-->
+        </section>
+        <div class="clear"></div>
+    </div>
+</section>
+<!--product dingzhi end -->
+
+{template "footer.html"}

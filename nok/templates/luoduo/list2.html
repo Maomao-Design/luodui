@@ -1,0 +1,56 @@
+{template "header.html"}
+
+<!--product dingzhi-->
+<section class="product-wrap">
+    <div class="product-box w m-auto">
+        <!--aside-->
+        {template "sider.html"}
+        <!--aside end-->
+        <section class="product-content fr">
+            {template "name.html"}
+            <div class="nok-list-wrap">
+                <!--paging-->
+                <!--list box-->
+                <div class="nok-list-main">
+                    <table class="tb">
+                        <tr class="tr0">
+                            <th class="th1">NOK零件号</th>
+                            <th class="th2">类型</th>
+                            <th class="th2">名义编号JIS</th>
+                            <th class="th2">截径（W）</th>
+                            <th class="th2">内径（do）</th>
+                        </tr>
+
+                        {list action=module catid=$catid order=displayorder,updatetime page=1}
+                        <tr>
+                            <td class="td1"><a href="{$t.url}">{$t.title}</a></td>
+                            <td class="td2">
+                                {$t.leixing}
+                            </td>
+                            <td class="td2">
+                                {$t.mingyibianhaojis}
+                            </td>
+                            <td class="td2">
+                                {$t.jiejingw}
+                            </td>
+                            <td class="td2">
+                                {$t.neijingdo}
+                            </td>
+                        </tr>
+                        {/list}
+                    </table>
+                </div>
+                <!--list box end-->
+                <div class="paging-box" style="padding-top: 20px;">
+                    <ul>
+                        {$pages}
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+    </div>
+</section>
+<!--product dingzhi end -->
+
+{template "footer.html"}
