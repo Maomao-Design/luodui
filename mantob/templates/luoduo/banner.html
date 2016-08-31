@@ -1,4 +1,4 @@
-<section class="banner-wrap">
+<section class="banner-wrap wb100">
 	<!-- REVOLUTION SLIDER -->
 	<div class="slider fullwidthbanner-container roundedcorners">
 				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview2">

@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header wb100">
     <div class="w m-auto pstRe">
         <div class="logo">
             <?php $return = $this->list_tag("action=navigator type=4 pid=0"); if ($return) extract($return); $count=count($return); if (is_array($return)) { foreach ($return as $key=>$t) {  if ($t['id'] == 32) { ?>

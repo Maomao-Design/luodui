@@ -2,7 +2,7 @@
 <!--banner-->
 {list action=navigator type=4 pid=0}
 {if $t.id == 39}
-<section class="caigou-banner-wrap" style="background-image: url('{dr_thumb($t.thumb)}')" />
+<section class="caigou-banner-wrap wb100" style="background-image: url('{dr_thumb($t.thumb)}')" />
 {/if}
 {/list}
     <div class="caigou-banner m-auto wow fadeInUp bg-red animated">
@@ -19,13 +19,13 @@
 </section>
 <!--banner end -->
 <!--caigou-->
-<section class="caigou-zhinan-wrap" id="caigou-zhinan-wrap">
+<section class="caigou-zhinan-wrap wb100" id="caigou-zhinan-wrap">
     <div class="caigou-xuanxing">
         <div class="title">选型指导</div>
         <div class="title-en">model selection</div>
     </div>
     <!--tab-->
-    <div class="caigou-top-tab-wrap">
+    <div class="caigou-top-tab-wrap wb100">
         <div class="caigou-top-tab m9 m-auto">
             <div class="caigou-tab-sanjiao" id="caigou-tab-sanjiao"></div>
             {list action=category pid=$cat.pid }
@@ -47,7 +47,7 @@
     <!--tab end-->
 </section>
 <!--title-nav-->
-<section class="caigou-title-nav-wrap">
+<section class="caigou-title-nav-wrap wb100">
     <div class="caigou-title-nav">
         {list action=module catid=$catid order=displayorder,updatetime page=1}
         <a href="javascript:void(0);" class="title-nav-a" data-catid="{$catid}" data-id="{$t.id}" >{$t.title}</a>

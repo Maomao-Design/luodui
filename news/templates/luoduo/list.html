@@ -1,27 +1,46 @@
-
-            <!--left-->
-            <div class="news-main-l">
-                <div class="news-list-wrap">
-                    <ul>
-                        {list action=module catid=$catid order=displayorder,updatetime page=1}
-                        <li>
-                            <div class="title">
-                                <a href="{$t.url}">
-                                    <span>{$t.title}</span>
-                                </a>
-                            </div>
-
-                        </li>
-                        {/list}
-
-                    </ul>
+{template "header.html"}
+{template "mian.html"}
+<!--left-->
+<div class="news-main-l">
+    <div class="news-list-wrap">
+        <ul>
+            {list action=module catid=$catid order=displayorder,updatetime page=1}
+            <li>
+                <div class="title">
+                    <a href="{$t.url}">
+                        <span>{$t.title}</span>
+                    </a>
                 </div>
-                <div class="paging-box">
-                    <ul>
-                    {$pages}
-                    </ul>
+                <time class="time">{dr_date($t._updatetime, 'Y-m-d')}</time>
+                <div class="thumb">
+                    <a href="{$t.url}">
+                        <img src="{dr_thumb($t.thumb)}" alt="{$t.title}">
+                    </a>
                 </div>
-            </div>
+                <div class="contents">
+                    <p>
+                        {$t.description}.....
+                    </p>
+                </div>
+            </li>
+            {/list}
 
+        </ul>
+    </div>
+    <div class="paging-box">
+        <ul>
+            {$pages}
+        </ul>
+    </div>
+</div>
+<!--left end-->
+<!--right-->
+{template "right.html"}
+<!--right end-->
+<div class="clear"></div>
 
+</div>
+</div>
+</section>
+{template "footer.html"}
 
